@@ -28,6 +28,3 @@ Catalog of popular object-oriented design patterns in Java
 - [x] Strategy
 - [x] Template Method
 - [x] Visitor
-
-### Credits
-This was adapted from the spectacular [Design Patterns in Java](https://app.pluralsight.com/profile/author/bryan-hansen) series by [Bryan Hansen](https://github.com/bh5k) over on [Pluralsight](https://www.pluralsight.com/).

@@ -1,7 +1,5 @@
 package com.structural.composite;
 
-import java.util.Iterator;
-
 public class Menu extends MenuComponent {
 
     public Menu(String name, String url) {
@@ -27,9 +25,7 @@ public class Menu extends MenuComponent {
 
         builder.append(print(this));
 
-        Iterator<MenuComponent> itr = menuComponents.iterator();
-        while (itr.hasNext()) {
-            MenuComponent menuComponent = itr.next();
+        for (MenuComponent menuComponent : menuComponents) {
             builder.append(menuComponent.toString());
         }
 

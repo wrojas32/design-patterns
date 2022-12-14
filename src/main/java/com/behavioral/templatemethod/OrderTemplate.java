@@ -1,8 +1,12 @@
 package com.behavioral.templatemethod;
 
+import java.util.AbstractList;
+
 public abstract class OrderTemplate {
 
     public boolean isGift;
+
+    AbstractList v;
 
     public abstract void doCheckout();
 
